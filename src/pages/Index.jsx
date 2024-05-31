@@ -27,7 +27,7 @@ const Index = () => {
     <Container centerContent maxW="container.md" height="100vh" display="flex" flexDirection="column" justifyContent="center" alignItems="center">
       <VStack spacing={4} width="100%">
         <HStack width="100%">
-          <Input placeholder="Add a new task" value={task} onChange={(e) => setTask(e.target.value)} />
+          <Input placeholder="Greatest label" value={task} onChange={(e) => setTask(e.target.value)} />
           <Button onClick={addTask} colorScheme="teal">
             Add Task
           </Button>
